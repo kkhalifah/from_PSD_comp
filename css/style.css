@@ -136,7 +136,8 @@ h2 {
     background: #282828;
     color: #fff;
     text-decoration: none;
-    border-radius: 50px;  
+    border-radius: 50px;
+    transition: 0.3s;
 }
 
 .cta-btn:hover {
@@ -193,3 +194,46 @@ h2 {
     margin: 20px 0;
 }
 
+/*Cupcake section*/
+
+#cupcake {
+    background: url('../img/cake.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.download-info {
+    width: 60%;
+    padding: 10px 0px;
+    
+}
+
+
+#cupcake h2 {
+    margin-bottom: 40px;
+    padding: 100px 0px;
+}
+
+.cupcake-para {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.download-btn {
+    padding: 15px;
+    background: #d9332d;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 50px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background: #c33934;
+    transition: 0.3s;
+}
