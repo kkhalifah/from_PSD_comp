@@ -1,0 +1,151 @@
+/* helper classes */
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.strong, b {
+    font-weight: 700;
+}
+
+em, i {
+    font-style: italic;
+}
+
+p, 
+ul li, 
+ol li {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+/* General Rules*/
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "HelveticaNeue-Thin";
+    src: local("HelveticaNeue-Thin.otf"), url("HelveticaNeue-Thin.otf"), format("opentype"); 
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
+}
+
+body {
+    font-family: 'HelveticaNeue-Thin', sans-serif;
+}
+
+
+#hero {
+    background-image: linear-gradient(rgba(218, 51, 46, 0.6), rgba(218, 51, 46, 0.6)), url('../img/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+.nav li a:hover {
+    border-bottom: 4px solid white;
+    transition: border-bottom 0.1s, color 0.1s;
+}
+
+#hero h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 90px;
+    position: relative;
+}
+
+.imgs {
+    float: right;
+    position: absolute;
+    right: -135px;
+}
+
+.phone {
+    width: 85%;
+    position: relative;
+    margin-bottom: -240px;
+}
+
+.cta-info {
+    width: 60%;
+    padding-right: 150px;
+    float: left;
+}
+
+.hero-para {
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 55px;
+}
+
+.cta-btn {
+    padding: 23px 35px;
+    background: #282828;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;  
+}
+
+.cta-btn:hover {
+    background: #383737;
+    transition: 0.3s;
+}
+
+.phone-icon {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+
