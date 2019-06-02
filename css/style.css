@@ -306,3 +306,39 @@ footer p {
      margin-top: 5px;
 }
 
+/*Copyright*/
+
+.copyright .container {
+    padding: 30px; 
+    text-align: center;
+}
+
+.copyright {
+    background-color: #f0f0f0;
+}
+
+.inline {
+    display: inline;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.cr, .portfolio {
+    margin-right: 40px;
+}
+
+.fb, .dr {
+    margin-right: 40px;
+}
+
+.cr:after, .portfolio:after {
+    content: "";
+    border:1px solid #555;
+    margin-left: 10px;
+}
+
+.port {
+    text-decoration: none;
+    color: #2e2e38;
+}
+
