@@ -1,3 +1,5 @@
+
+
 /* helper classes */
 .align-left {
     float: left;
@@ -351,8 +353,12 @@ footer p {
 
 .inline {
     display: inline;
-    font-size: 20px;
+    font-size: 15px;
     vertical-align: middle;
+}
+
+.social img{
+    width: 3%;
 }
 
 .cr, .portfolio {
@@ -372,5 +378,30 @@ footer p {
 .port {
     text-decoration: none;
     color: #2e2e38;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width:1240px) {
+    .cta-info {
+        padding-right: 80px;
+    }
+    .download-info {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:820px) {
+
+    .phone,
+    .phone-on,
+    .phone-btn {
+        display: none;
+    }
+   
+    .cta-info {
+        width: 80%;
+        padding-right: 40px;
+    }
 }
 
