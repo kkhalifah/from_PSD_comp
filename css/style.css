@@ -452,6 +452,14 @@ footer p {
         font-size: 18px;
         vertical-align: middle;
     }
+    
+    #app-features h2 {
+     margin-bottom: 10px; 
+}
+    
+    .p-features {
+    padding: 0px 30px;
+}
 
     .cta-info {
         width: 100%;
@@ -466,4 +474,9 @@ footer p {
     #cupcake h2 {
         padding: 20px 0px;
     }
+    
+    #app-features .container {
+    
+    padding: 30px 20px 10px 20px;
+}
 }
