@@ -1,5 +1,3 @@
-
-
 /* helper classes */
 .align-left {
     float: left;
@@ -25,16 +23,18 @@
     margin-bottom: 40px;
 }
 
-.strong, b {
+.strong,
+b {
     font-weight: 700;
 }
 
-em, i {
+em,
+i {
     font-style: italic;
 }
 
-p, 
-ul li, 
+p,
+ul li,
 ol li {
     font-size: 16px;
     line-height: 23px;
@@ -49,7 +49,7 @@ ol li {
 
 @font-face {
     font-family: "HelveticaNeue-Thin";
-    src: local("HelveticaNeue-Thin.otf"), url("HelveticaNeue-Thin.otf"), format("opentype"); 
+    src: local("HelveticaNeue-Thin.otf"), url("HelveticaNeue-Thin.otf"), format("opentype");
 }
 
 .container {
@@ -76,7 +76,7 @@ body {
 h2 {
     font-size: 40px;
     font-weight: 700;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .nav li {
@@ -128,16 +128,17 @@ h2 {
     top: 107px;
     width: 55%;
 }
+
 .phone-btn {
     position: absolute;
-    right:215px;
+    right: 215px;
 }
 
 .js-wp-2 {
     opacity: 0;
 }
 
-.js-wp-2.animated{
+.js-wp-2.animated {
     opacity: 1;
 }
 
@@ -146,7 +147,7 @@ h2 {
     animation-delay: 1.0s;
 }
 
-.js-wp-3.animated{
+.js-wp-3.animated {
     opacity: 1;
 }
 
@@ -207,7 +208,7 @@ h2 {
     width: 33.33%;
     float: left;
     padding: 0px 45px;
-   
+
 }
 
 .col-4-app p {
@@ -217,7 +218,7 @@ h2 {
 }
 
 .row {
-   overflow: hidden; 
+    overflow: hidden;
     margin-top: 40px;
 }
 
@@ -234,13 +235,13 @@ h2 {
     background: url('../img/cake.png');
     background-size: cover;
     background-position: center;
-    
+
 }
 
 .download-info {
     width: 60%;
     padding: 10px 0px;
-    
+
 }
 
 
@@ -255,6 +256,7 @@ h2 {
     font-weight: 700;
     padding: 0px 50px 30px;
 }
+
 
 .download-btn {
     padding: 15px;
@@ -275,7 +277,7 @@ span {
     color: #f55150;
 }
 
- .head{
+.head {
     color: #000000;
 }
 
@@ -312,7 +314,8 @@ footer p {
     padding: 30px;
 }
 
-.ul-post, .ul-tweets {
+.ul-post,
+.ul-tweets {
     margin-top: 25px;
     font-family: 'Raleway', sans-serif;
 }
@@ -333,17 +336,17 @@ footer p {
     margin-bottom: 25px;
 }
 
- .small-txt {
+.small-txt {
     display: block;
-     color: #aaaaaa;
-     font-size: 12px;
-     margin-top: 5px;
+    color: #aaaaaa;
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 /*Copyright*/
 
 .copyright .container {
-    padding: 30px; 
+    padding: 30px;
     text-align: center;
 }
 
@@ -357,21 +360,24 @@ footer p {
     vertical-align: middle;
 }
 
-.social img{
+.social img {
     width: 3%;
 }
 
-.cr, .portfolio {
+.cr,
+.portfolio {
     margin-right: 40px;
 }
 
-.fb, .dr {
+.fb,
+.dr {
     margin-right: 40px;
 }
 
-.cr:after, .portfolio:after {
+.cr:after,
+.portfolio:after {
     content: "";
-    border:1px solid #555;
+    border: 1px solid #555;
     margin-left: 10px;
 }
 
@@ -386,8 +392,9 @@ footer p {
     .cta-info {
         padding-right: 80px;
     }
+
     .download-info {
-        width:80%;
+        width: 80%;
     }
 }
 
@@ -398,10 +405,65 @@ footer p {
     .phone-btn {
         display: none;
     }
-   
+
     .cta-info {
         width: 80%;
         padding-right: 40px;
     }
+
+    .p-features {
+        padding: 30px;
+    }
+
+    .col-4-app {
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+    }
 }
 
+@media only screen and (max-width:768px) {
+    .col-4-footer {
+        width: 100%;
+        float: none;
+        margin-top: 0px;
+        font-weight: 400;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+
+    .cr:after,
+    .portfolio:after {
+        display: none;
+        margin-left: 0px;
+    }
+
+    .social img {
+        width: 8%;
+    }
+
+    .inline {
+        display: inline-block;
+        font-size: 18px;
+        vertical-align: middle;
+    }
+
+    .cta-info {
+        width: 100%;
+    }
+
+    .cupcake-para {
+        font-size: 22px;
+        line-height: 30px;
+        padding: 0px 10px 30px;
+    }
+
+    #cupcake h2 {
+        padding: 20px 0px;
+    }
+}
