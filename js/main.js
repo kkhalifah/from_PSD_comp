@@ -2,6 +2,11 @@ $(document).ready(() => {
     // wowjs.uk/docs.html for styling options
      new WOW().init();
     
+    //hamburger menu
+$('.burger-nav').on("click", function(){
+    $('.container nav ul').toggleClass('open');
+});    
+    
  $('.js-wp-2').waypoint(direction => {
  $('.js-wp-2').addClass('animated slideInUp');
  }, {

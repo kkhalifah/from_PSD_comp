@@ -420,6 +420,55 @@ footer p {
         float: none;
         margin-bottom: 30px;
     }
+    
+    /*  hand coded burger nav*/
+    .navbar {
+        overflow: hidden;
+        position: absolute;
+        right: 30px;
+        top: 50px;
+        display: block;
+    }
+    .burger-nav {
+        background: url(../img/hamburger.png) no-repeat 100% center;
+        display: block;
+        height: 33px;
+        width: 40px;
+        cursor: pointer;
+        float: right;
+        margin-bottom: 10px;
+    }
+    
+    .container nav ul {
+        height: 0;
+        overflow: hidden;
+        background: #282828;
+        border-radius: 5px;
+    }
+    
+    .container nav ul.open {
+        height: auto;
+        clear:both;
+    }
+    
+    .container nav ul li {
+        float: none;
+        text-align: right;
+        width: auto;
+        margin: 0;
+        display: block;
+    }
+    
+    .container nav ul li a {
+        padding: 10px;
+        display: block;
+        margin: 0;
+    }
+    
+    .container nav ul li a:hover {
+        border: none;
+    }
+    
 }
 
 @media only screen and (max-width:768px) {
